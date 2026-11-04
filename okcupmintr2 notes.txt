@@ -1,0 +1,2 @@
+When operating, I dont have to put my sudo password for anything
+Accidentally deleting samba and reinstalling caused 4 flaws to be solved immediately, with the exception of one penalty not resolving itself.

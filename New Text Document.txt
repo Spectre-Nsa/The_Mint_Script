@@ -1,0 +1,8 @@
+Disabling sysrq key combo: sudo nano /etc/sysctl.d/90-sysrq.conf
+add line: kernel.sysrq = 0
+ctrl+O ctrl+X
+Checking its disabled: cat /proc/sys/kernal/sysrq    if this returns 0 it means its disabled
+
+Editing insecure sudo permissions: sudo visudo
+
+
